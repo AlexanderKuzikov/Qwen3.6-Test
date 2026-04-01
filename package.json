@@ -1,0 +1,26 @@
+{
+  "name": "qwen3.6-test",
+  "version": "1.0.0",
+  "description": "Тестирую новую языковую модель на OpenRouter.ai",
+  "main": "test-reasoning.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderKuzikov/Qwen3.6-Test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlexanderKuzikov/Qwen3.6-Test/issues"
+  },
+  "homepage": "https://github.com/AlexanderKuzikov/Qwen3.6-Test#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {}
+}
