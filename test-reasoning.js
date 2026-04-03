@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 
 const API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 const API_KEY = process.env.OPENROUTER_API_KEY;
-const MODEL = 'qwen/qwen3.6-plus-preview:free';
+const MODEL = 'qwen/qwen3.6-plus:free';
 
 if (!API_KEY) {
   console.error('❌ Ошибка: не задан OPENROUTER_API_KEY в .env');
